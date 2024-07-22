@@ -1,6 +1,7 @@
 #BOXPLOT
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 data=np.random.rand(20,3)
 sns.boxplot(data=data)
 plt.title("Box Plot")
